@@ -1,0 +1,19 @@
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\bin\datatable.dll.config
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\bin\datatable.dll
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\bin\datatable.pdb
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\obj\Debug\datatable.dll
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\obj\Debug\datatable.pdb
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\bin\HtmlAgilityPack.dll
+F:\cs50\indianaspforms\WindowsFormsApplication1\datatable\obj\Debug\datatable.csprojResolveAssemblyReference.cache
+C:\Users\moham\Desktop\New folder (2)\datatable\bin\datatable.dll.config
+C:\Users\moham\Desktop\New folder (2)\datatable\bin\datatable.dll
+C:\Users\moham\Desktop\New folder (2)\datatable\bin\datatable.pdb
+C:\Users\moham\Desktop\New folder (2)\datatable\obj\Debug\datatable.csprojResolveAssemblyReference.cache
+C:\Users\moham\Desktop\New folder (2)\datatable\obj\Debug\datatable.dll
+C:\Users\moham\Desktop\New folder (2)\datatable\obj\Debug\datatable.pdb
+F:\cs50\mywinforms\Natiga\bin\datatable.dll.config
+F:\cs50\mywinforms\Natiga\bin\datatable.dll
+F:\cs50\mywinforms\Natiga\bin\datatable.pdb
+F:\cs50\mywinforms\Natiga\obj\Debug\datatable.csprojResolveAssemblyReference.cache
+F:\cs50\mywinforms\Natiga\obj\Debug\datatable.dll
+F:\cs50\mywinforms\Natiga\obj\Debug\datatable.pdb

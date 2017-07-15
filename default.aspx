@@ -23,40 +23,9 @@
     <![endif]-->
 </head>
 <body>
-
-     
-
-        
-        
-
-        
-        
-       
-          
-        
+  
     <div class="container">
-        
-                <!-- فيس بوك اسكربت -->
 
-                <div id="fb-root"></div>
-                <script>
-                    (function (d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s); js.id = id;
-                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));</script>
-
-
-                <!--  انهاء الاسكربت-->
-
-                <div style="text-align: center;">
-                    <a target="_blank" href="https://www.facebook.com/MohamedKhaskia"><span style="font-size: 24px;">my facebook account <br> https://www.facebook.com/MohamedKhaskia</span></a>
-                </div>
-
-        <a href="ganzour.byethost6.com">لعرض نتائج السنوات السابقة </a>
-        <h1>البنات</h1>
         <table id="mydata" class="table table-striped table-bordered table-hover" >
            
                 <thead>
@@ -87,27 +56,14 @@
                        foreach (HtmlNode node in doc.DocumentNode.SelectNodes("//table [@class='dataTable']//tbody//tr//td")) {
                            names.Add(node.ChildNodes[0].InnerHtml);
                        }
-                       var degrees = doc.DocumentNode.SelectNodes("//table [@class='dataTable']//tbody//tr//td//strong").Skip(1).Take(1);
-                       
-
-                       ////p//span
-                     /*  foreach (HtmlNode node in doc.DocumentNode.SelectNodes("//div[@class='content']//div[@class='result success']//span")) {
-                           degree.Add(node.ChildNodes[1].InnerHtml);
-                       }
-                   */
-        
+                       var degrees = doc.DocumentNode.SelectNodes("//table [@class='dataTable']//tbody//tr//td//strong").Skip(1).Take(1);         
               %>
                     <tr>
-                     
                         <td><%=names[1] %></td>
                         <td><%=names[3] %></td>
                         <td><%=names[9] %></td>
                         <td><%= degrees.First().ChildNodes[0].InnerText.Trim() %></td>
-                        
                        
-
-                        <%--<td><%=names[2] %></td>
-                        <td><%=degree[1]%></td>--%>
               <%
                       }
                    catch (Exception e)
@@ -117,13 +73,8 @@
 
                   } %>
                     </tr>  
-                </tbody>
-              
-
+                </tbody>  
         </table>
-
-
-
     </div>
      
 
